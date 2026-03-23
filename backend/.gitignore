@@ -1,0 +1,69 @@
+
+# ==================================
+# Environment Variables & Secrets
+# ==================================
+# CRITICAL: Never commit your secrets to version control!
+.env
+.env.*
+!.env.example  # It's okay to commit a template file
+
+# ==================================
+# Virtual Environments
+# ==================================
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# ==================================
+# Byte-compiled / Optimized / DLL files
+# ==================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==================================
+# Testing & Coverage
+# ==================================
+.pytest_cache/
+.coverage
+htmlcov/
+pytest_stdout.txt
+pytest_stderr.txt
+test_output.txt
+
+# ==================================
+# C Extensions / Builds
+# ==================================
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================================
+# IDE / OS / Editor Files
+# ==================================
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# ==================================
+# Logs and Databases
+# ==================================
+*.log
+*.sqlite3
